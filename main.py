@@ -9,7 +9,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, MenuButtonCommands
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8268148633:AAHlcBIaMplGzwlmiZ2w11NCCWy5CA_tbJY"  # ضع توكن البوت
+TOKEN = "8520525369:AAGhpShBwAQYROXqkPXvm_1SVeSAvjuy3kc"  # ضع توكن البوت
 ADMINS = [1226196443]  # ضع ID الأدمن
 
 DATA_FILE = "data.json"
