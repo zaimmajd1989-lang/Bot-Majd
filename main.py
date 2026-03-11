@@ -1532,7 +1532,12 @@ def main():
 
     # شغّل البوت
     print("🤖 Davinci Design Bot is running...")
-    app.run_polling()
+    app.run_webhook(
+    listen="0.0.0.0",
+    port=int(os.environ.get("PORT", 8080)),
+    url_path=BOT_TOKEN,   # هذا التوكن للبوت
+    webhook_url=f"{APP_URL}/{BOT_TOKEN}"  # الرابط الكامل
+    )
 
 
 if __name__ == "__main__":
